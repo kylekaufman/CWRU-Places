@@ -6,6 +6,7 @@ struct Location: Identifiable, Codable {
     let lat: Double
     let lng: Double
     let label: String
+    let pass: String?
 }
 
 struct LocationResponse: Codable {
